@@ -1,0 +1,9 @@
+Tudod, hogy a barátod egy hanyag programozó, ezért ellenőrizni
+akarod a könyvesbolt alkalmazását, mielőtt élesben publikálja és leégeti magát az egész világ előtt.
+Be tudsz loginolni sérülékenységet kihasználva? Ha nem, miért? Belépés után meg tudod szerezni 
+az összes felhasznló adatát? Milyen lépésekkel tudod megszerezni?
+Meg tudád trükközni a felhasználókat, hogy ki tudják magukat zárni a fiókjukból? Ha igen, hogyan?
+Tudod módosítgatni egy kicsit az oldal felépítését? XSS-re mennyire van lehetőség?
+Átgondolta a barátod a bevitt értékek ellenőrzését?
+
+
