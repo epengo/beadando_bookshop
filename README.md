@@ -1,21 +1,28 @@
-# docker-lamp
+# Bookshop használat
 
-Docker example with Apache, MySql 8.0, PhpMyAdmin and Php
+1. Docker-composer telepítés:
 
-- You can use MariaDB 10.1 if you checkout to the tag `mariadb-10.1` - contribution made by [luca-vercelli](https://github.com/luca-vercelli)
-- You can use MySql 5.7 if you checkout to the tag `mysql5.7`
+[https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/)
 
-I use docker-compose as an orchestrator. To run these containers:
+[https://phoenixnap.com/kb/install-docker-compose-on-ubuntu-20-04](https://phoenixnap.com/kb/install-docker-compose-on-ubuntu-20-04)
 
+2. git clone https://github.com/epengo/beadando_bookshop.git
+
+3. cd beadando_bookshop
+
+4. Háttérben indítás:
 ```
 docker-compose up -d
 ```
 
+5. Előtérben indítás:
+
+```
+docker-compose up 
+```
+
+6. Megnyitás böngészőben: [http://localhost:8001](http://localhost:8001)
+
+
 Open phpmyadmin at [http://localhost:8000](http://localhost:8000)
-Open web browser to look at a simple php example at [http://localhost:8001](http://localhost:8001)
 
-Run mysql client:
-
-- `docker-compose exec db mysql -u root -p` 
-
-Enjoy !
