@@ -5,7 +5,7 @@ require('includes/config.php');
 	{
 		$msg=array();
 		
-		if(empty($_POST['nm']) || empty($_POST['email']) || empty($_POST['query']))
+		if(empty($_POST['fnm']) || empty($_POST['email']) || empty($_POST['query']))
 		{
 			$msg[]="Please full fill all requirement";
 		}

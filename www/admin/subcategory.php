@@ -53,7 +53,7 @@
 														//PASS ID NOT NAME
 													}
 					
-													mysqli_close($link);
+													mysqli_close($conn);
 											?>
 										</select>
 									

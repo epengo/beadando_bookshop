@@ -76,7 +76,7 @@ Description: A two-column, fixed-width and lightweight template ideal for 1024x7
 										<td>'.$row['con_nm'].'
 										<td>'.$row['con_email'].'
 										<td>'.$row['con_query'].'
-										<td><a href="process_del_contact.php?sid='.$row['con_id'].'"><img src="images/drop.png" ></a>
+										<td><a href="process_del_contact.php?id='.$row['con_id'].'"><img src="images/drop.png" ></a>
 												
 									
 									</tr>';

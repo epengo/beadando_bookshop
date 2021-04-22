@@ -83,7 +83,7 @@ Description: A two-column, fixed-width and lightweight template ideal for 1024x7
 				echo "<td><img src='../$row[b_img]' width='50'/>";
 										
 										
-									echo 	'<td><a href="process_del_book.php?sid='.$row['b_id'].'"><img src="images/drop.png" ></a>
+									echo 	'<td><a href="process_del_book.php?id='.$row['b_id'].'"><img src="images/drop.png" ></a>
 												
 									
 									</tr>';

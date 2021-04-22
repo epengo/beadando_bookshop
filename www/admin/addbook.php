@@ -67,7 +67,7 @@ require('includes/config.php');
 												}
 												
 											}
-											mysqli_close($link);
+											mysqli_close($conn);
 								?>
 						</select>
 						<br><br>

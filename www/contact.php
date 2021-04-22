@@ -45,7 +45,7 @@ require('includes/config.php');
 												
 
 											<br>Name :<br>
-												<input type='text' name='nm' size=35>
+												<input type='text' name='fnm' size=35>
 												<br><br><br>
 												
 												E-mail ID:<br>
